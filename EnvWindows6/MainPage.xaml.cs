@@ -78,20 +78,5 @@ namespace EnvWindows6
                 await dialog.ShowAsync();
             }
         }
-        
-        private void uiName_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            //inputContact.Nom = uiName.Text;
-        }
-
-        private void uiPrenom_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            //inputContact.Prénom = uiPrenom.Text;
-        }
-
-        private void uiNumero_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            //inputContact.Numéro = uiNumero.Text;
-        }
     }
 }
